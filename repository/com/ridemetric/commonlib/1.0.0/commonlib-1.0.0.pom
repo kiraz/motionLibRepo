@@ -20,6 +20,12 @@
       <scope>compile</scope>
     </dependency>
     <dependency>
+      <groupId>com.google.code</groupId>
+      <artifactId>microlog4android</artifactId>
+      <version>1.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
       <groupId>ch.acra</groupId>
       <artifactId>acra</artifactId>
       <version>4.6.2</version>
