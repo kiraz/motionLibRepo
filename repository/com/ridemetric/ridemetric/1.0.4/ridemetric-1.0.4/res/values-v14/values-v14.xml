@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/shelly/AndroidStudioProjects/screens/RideMetric/RideMetricModule/src/main/res/values-v14/styles.xml -->
+    <eat-comment/>
+    <style name="HoloRedActionBar" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@color/action_bar</item>
+        <item name="android:titleTextStyle">@style/CustomActionBarTitleText</item>
+    </style>
+    <style name="HoloTheme" parent="@android:style/Theme.Holo.Light.DarkActionBar">
+        <item name="android:actionBarStyle">@style/HoloRedActionBar</item>
+    </style>
+</resources>

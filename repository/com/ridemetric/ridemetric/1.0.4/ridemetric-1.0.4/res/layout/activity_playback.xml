@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/activity_vertical_margin">
+    <TextView
+        android:id="@+id/text_trip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:text="Select Trip"/>
+    <Spinner
+        android:id="@+id/spinner_trips"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_trip"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"/>
+    <Button
+        android:id="@+id/button_playback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/spinner_trips"
+        android:visibility="invisible"
+        android:text="Playback"/>
+    <CheckBox
+        android:layout_below="@id/button_playback"
+        android:id="@+id/checkbox_async"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:visibility="gone"
+        android:text="Async"/>
+    <CheckBox
+        android:id="@+id/checkbox_onoff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button_playback"
+        android:text="Switch Playback On/Off"/>
+    <ProgressBar
+        android:id="@+id/progressbar"
+        android:layout_width="match_parent"
+        android:layout_height="20dip"
+        android:layout_below="@id/checkbox_async"
+        style="?android:progressBarStyleHorizontal"
+        android:visibility="gone"/>
+</RelativeLayout><!-- From: file:/C:/Users/shelly/AndroidStudioProjects/screens/RideMetric/RideMetricModule/src/main/res/layout/activity_playback.xml -->
