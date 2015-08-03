@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.ridemetric</groupId>
   <artifactId>ridemetric</artifactId>
-  <version>1.0.3</version>
+  <version>1.0.5.kb</version>
   <packaging>aar</packaging>
   <dependencies>
     <dependency>
@@ -32,27 +32,27 @@
       <scope>compile</scope>
     </dependency>
     <dependency>
-      <groupId>com.google.android.gms</groupId>
-      <artifactId>play-services-base</artifactId>
-      <version>7.3.0</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
       <groupId>com.squareup.retrofit</groupId>
       <artifactId>retrofit</artifactId>
       <version>1.9.0</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
-      <groupId>com.google.maps</groupId>
-      <artifactId>google-maps-services</artifactId>
-      <version>0.1.7</version>
+      <groupId>com.google.android.gms</groupId>
+      <artifactId>play-services</artifactId>
+      <version>7.5.0</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>com.ridemetric</groupId>
       <artifactId>commonlib</artifactId>
       <version>1.0.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.joda</groupId>
+      <artifactId>joda-convert</artifactId>
+      <version>1.4</version>
       <scope>compile</scope>
     </dependency>
     <dependency>

@@ -3,8 +3,8 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.ridemetric</groupId>
-  <artifactId>ridemetric</artifactId>
-  <version>1.0.3</version>
+  <artifactId>ridemetric-controlsdk</artifactId>
+  <version>1.2.8.kb</version>
   <packaging>aar</packaging>
   <dependencies>
     <dependency>
@@ -20,9 +20,9 @@
       <scope>compile</scope>
     </dependency>
     <dependency>
-      <groupId>joda-time</groupId>
-      <artifactId>joda-time</artifactId>
-      <version>2.8.1</version>
+      <groupId>com.ridemetric</groupId>
+      <artifactId>motionlib</artifactId>
+      <version>1.0.6.de</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
@@ -32,21 +32,9 @@
       <scope>compile</scope>
     </dependency>
     <dependency>
-      <groupId>com.google.android.gms</groupId>
-      <artifactId>play-services-base</artifactId>
-      <version>7.3.0</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>com.squareup.retrofit</groupId>
-      <artifactId>retrofit</artifactId>
-      <version>1.9.0</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>com.google.maps</groupId>
-      <artifactId>google-maps-services</artifactId>
-      <version>0.1.7</version>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>21.0.3</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
@@ -56,15 +44,15 @@
       <scope>compile</scope>
     </dependency>
     <dependency>
-      <groupId>org.droidparts</groupId>
-      <artifactId>droidparts</artifactId>
-      <version>2.6.0</version>
+      <groupId>com.google.android.gms</groupId>
+      <artifactId>play-services-base</artifactId>
+      <version>7.5.0</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
-      <groupId>com.squareup.picasso</groupId>
-      <artifactId>picasso</artifactId>
-      <version>2.5.2</version>
+      <groupId>com.ridemetric</groupId>
+      <artifactId>ridemetric</artifactId>
+      <version>1.0.5.kb</version>
       <scope>compile</scope>
     </dependency>
   </dependencies>
