@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/preferences" 
+          android:title="Settings"></item>
+    <item android:title="About" android:id="@+id/about"></item>
+    <item android:id="@+id/demSettings" 
+          android:title="Demonstration Settings"></item>
+    <item android:id="@+id/controlService" 
+          android:title="Control Service"></item>
+    <item android:id="@+id/senseUsage" android:title="Sense Usage"></item>
+</menu>
+<!-- From: file:/C:/Users/shelly/AndroidStudioProjects/motionLib/rmMotionLib/src/main/res/menu/sense_usage.xml -->

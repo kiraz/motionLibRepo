@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Dem Screen Settings">
+    <CheckBoxPreference 
+    	android:key="enableDemSettings" 
+    	android:summary="Enables the demonstration settings screen" 
+    	android:title="Enable Demonstration Settings"
+    	android:defaultValue="false">
+    </CheckBoxPreference> 
+    
+    <CheckBoxPreference 
+    	android:key="simulateDriving" 
+    	android:summary="Simulates driving conditions when the phone is moving slightly" 
+    	android:title="Simulate driving"
+    	android:defaultValue="false">
+    </CheckBoxPreference> 
+    
+    <CheckBoxPreference 
+    	android:key="isEnablePlayback" 
+    	android:summary="isEnablePlayback" 
+    	android:title="isEnablePlayback"
+    	android:defaultValue="false">
+    </CheckBoxPreference> 
+    
+    <CheckBoxPreference 
+    	android:key="isBluetoothRegister" 
+    	android:summary="isBluetoothRegister" 
+    	android:title="isBluetoothRegister" 
+    	android:defaultValue="false">
+ 	</CheckBoxPreference>
+ 		
+    <CheckBoxPreference 
+    	android:key="activateDeviceAdmin" 
+    	android:summary="Activates device administrator that enables turn off of the screen when phone is locked" 
+    	android:title="Activate device administrator"
+    	android:defaultValue="false">
+    </CheckBoxPreference>
+    
+    <CheckBoxPreference 
+    	android:key="restartLock" 
+    	android:summary="Activate restart of activity. Could be especially usefull if device admin is not activated" 
+    	android:title="Restart lock"
+    	android:defaultValue="true">
+    </CheckBoxPreference> 
+    
+    <CheckBoxPreference 
+    	android:key="gpsIsOff" 
+    	android:summary="gpsIsOff" 
+    	android:title="gpsIsOff"
+    	android:defaultValue="false">
+    </CheckBoxPreference> 
+    
+   <CheckBoxPreference 
+    	android:key="gyroMissing" 
+    	android:summary="gyroMissing" 
+    	android:title="gyroMissing"
+    	android:defaultValue="false">
+    </CheckBoxPreference> 
+    
+   <CheckBoxPreference 
+    	android:key="sensorStopped" 
+    	android:summary="sensorStopped" 
+    	android:title="sensorStopped"
+    	android:defaultValue="false">
+    </CheckBoxPreference> 
+   
+    
+        <!-- this prefernece will just record if the app is started
+        but it would be modified through the main menu  
+        component. if true the service component is started -->
+        <CheckBoxPreference 
+    			android:key="disableSenseUsageAp" 
+    			android:summary="If checked disables RideMetric" 
+    			android:title="Disable RideMetric"
+    			android:defaultValue="false">
+    	</CheckBoxPreference>
+    	 -->
+    </PreferenceCategory>
+</PreferenceScreen>
+    
+<!-- From: file:/C:/Users/shelly/AndroidStudioProjects/motionLib/rmMotionLib/src/main/res/xml/dem_screen_settings.xml -->
