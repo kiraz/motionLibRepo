@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+    android:padding="30dip"  
+    	android:layout_marginTop="30dip"
+    	android:layout_marginBottom="5dip"
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/red"
+    android:orientation="vertical"
+    android:padding="15dip" >
+
+    <!-- android:layout_above="@+id/dismissForTrip" -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="255dp"
+        android:layout_weight="0.00"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="100dp"
+            android:text="Driving"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="43sp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView1"
+            android:layout_centerHorizontal="true"
+            android:text="Reminder"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="43sp" />
+    </RelativeLayout>
+
+    <!--
+          android:layout_width="wrap_content"
+            android:layout_height="wrap_content"        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+    -->
+
+    <Button
+        android:id="@+id/dismissForTrip"
+        android:layout_margin = "20dp"
+        style="@style/ButtonText"
+        android:background="@drawable/button_blue" />
+
+    <Button
+        android:id="@+id/dismissForever"
+        style="@style/ButtonText"
+        android:layout_margin = "20dp"
+        android:background="@drawable/button_purple"
+        android:text="Dismiss and do not show again" />
+
+    <!--
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="RideMetric"
+        android:textSize="43sp"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+  
+        
+        android:text="Driving Mode"
+        android:textSize="43sp"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/dismissForTrip"
+        style="@style/ButtonText"
+        android:layout_weight="0"
+        android:background="@drawable/button_blue"
+        android:gravity="bottom|center" />
+    -->
+
+</LinearLayout><!-- From: file:/C:/Users/shelly/AndroidStudioProjects/motionLib/rmMotionLib/src/main/res/layout/reminder_screen.xml -->

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/myColor">
+
+
+<EditText android:id="@+id/EditText01" android:layout_height="wrap_content" android:layout_width="fill_parent" android:inputType="numberSigned|numberDecimal"></EditText>
+<RadioGroup android:id="@+id/RadioGroup01" android:layout_width="wrap_content" android:layout_height="wrap_content">
+
+<RadioButton android:id="@+id/RadioButton01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:text="@string/enable"></RadioButton>
+<RadioButton android:id="@+id/RadioButton02" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/disable"></RadioButton>
+</RadioGroup>
+<Button android:id="@+id/Button01" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:text="@string/calc" 
+    android:onClick="myClickHandler"></Button>
+</LinearLayout>
+<!-- From: file:/C:/Users/shelly/AndroidStudioProjects/motionLib/rmMotionLib/src/main/res/layout-small-notlong-port-notnight-ldpi-finger-keyssoft-nokeys-navexposed-nonav-320x240/main.xml -->

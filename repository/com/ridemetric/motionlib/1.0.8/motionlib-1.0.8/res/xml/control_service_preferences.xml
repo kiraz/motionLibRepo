@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="User Settings">
+        
+        <!-- we want by default to show the errors 0x1000 is used
+    	as specified in the code -->
+    	<EditTextPreference 
+        	android:summary="Enter bitMask representing the messageType to log (see LogMsg class)" 
+        	android:title="Enter bitMask of messages to log"
+        	android:key="logMasks"
+        	android:defaultValue="0xffdf480">
+        </EditTextPreference>
+        <EditTextPreference 
+        	android:key="maxSpeedChange" 
+        	android:summary="Please enter maximum allowed speed change" 
+        	android:title="Max Speed Change " 
+        	android:defaultValue="120">
+        </EditTextPreference>
+        <EditTextPreference 
+        	android:key="respMsg" 
+        	android:summary="Enter response message to be sent when driving" 
+        	android:title="Auto Response Message"
+        	android:defaultValue="I am driving right now. I'll contact you shortly.">
+       	</EditTextPreference>
+    </PreferenceCategory>
+</PreferenceScreen>
+ <!-- From: file:/C:/Users/shelly/AndroidStudioProjects/motionLib/rmMotionLib/src/main/res/xml/control_service_preferences.xml -->

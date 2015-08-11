@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/unlock" android:title="Dismiss"></item>
+    <item android:id="@+id/emergency" android:title="EMERGENCY CALL"></item>
+</menu><!-- From: file:/C:/Users/shelly/AndroidStudioProjects/motionLib/rmMotionLib/src/main/res/menu/reminder_screen_menu.xml -->
