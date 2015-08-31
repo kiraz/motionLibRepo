@@ -27,7 +27,8 @@
       <version>1.1.9.sleepTesting</version>
       <version>1.2.0</version>
       <version>1.2.1</version>
+      <version>1.2.2.withoutDebugAnalytics</version>
     </versions>
-    <lastUpdated>20150828230326</lastUpdated>
+    <lastUpdated>20150831234356</lastUpdated>
   </versioning>
 </metadata>
