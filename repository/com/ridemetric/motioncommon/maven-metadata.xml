@@ -2,12 +2,13 @@
 <metadata>
   <groupId>com.ridemetric</groupId>
   <artifactId>motioncommon</artifactId>
-  <version>1.3.2</version>
   <versioning>
+    <release>1.3.4</release>
     <versions>
       <version>1.3.2</version>
       <version>1.3.3</version>
+      <version>1.3.4</version>
     </versions>
-    <lastUpdated>20160627131239</lastUpdated>
+    <lastUpdated>20161005004513</lastUpdated>
   </versioning>
 </metadata>
