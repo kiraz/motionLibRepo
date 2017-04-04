@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ridemetric.view" >
+
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="21" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <!-- this is used for acra report -->
+    <uses-permission android:name="android.permission.READ_LOGS" />
+
+    <uses-feature android:name="android.hardware.location.gps" />
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <application
+        android:allowBackup="false"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="droidparts_dependency_provider"
+            android:value="com.ridemetric.view.DependencyProvider" />
+        <meta-data
+            android:name="droidparts_log_level"
+            android:value="error" />
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="e8b54fba745c0368e96903cd9dd4492fc9dcd37c" />
+
+        <!--
+        this activity should not be defined here because Launcher has to be used
+        only once, otherwise multiple icons will get created for each activity that has
+        LAUNCHER
+        <activity
+            android:name=".activities.MainActivity"
+            android:launchMode="singleTask"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        -->
+        <activity
+            android:name="com.ridemetric.view.activities.ParkingSpotsActivity"
+            android:label="@string/title_activity_parking_spots"
+            android:launchMode="singleTask" >
+        </activity>
+        <activity
+            android:name="com.ridemetric.view.activities.PlaybackActivity"
+            android:label="Playback" />
+        <activity
+            android:name="com.ridemetric.view.activities.SenseUsageAbout"
+            android:label="@string/text_about" >
+        </activity>
+        <activity
+            android:name="com.ridemetric.view.activities.SenseUsageSettings"
+            android:theme="@style/HoloTheme" >
+        </activity>
+
+        <service android:name="com.ridemetric.view.services.TripService" />
+    </application>
+
+</manifest>

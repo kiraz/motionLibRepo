@@ -1,0 +1,16 @@
+{
+	"version" : 1,
+	"tests" : [
+		{
+			"name": "1",
+			"test" : {
+				"type": "TripStarted",
+				"time": "1000",
+				"lat" : 40.883549, 
+				"lng" : -74.433759,
+				"magnitude": 0.0,
+				"duration" : 1000
+			}
+		}
+	]
+}

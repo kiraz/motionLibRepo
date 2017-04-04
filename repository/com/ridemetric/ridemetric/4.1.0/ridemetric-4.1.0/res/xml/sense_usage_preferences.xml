@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:summary=""
+        android:title="Sense Usage Settings">
+        <Preference
+            android:key="pinNum"
+            android:selectable="false"
+            android:summary="Pin number will be provided after registering for premium services"
+            android:title="Pin number"/>
+        <!-- we do not want to use bluetooth at this time to simplify the offering for the
+             users and to avoid the ambiguity when mutliple paired phone are in the vehicle
+        <CheckBoxPreference
+                android:key="isMotionBasedDetection"
+                android:summary="Use the phone's motion sensors to detect driving (battery efficient)."
+                android:title="AutoStart with motion"
+                android:defaultValue="true">
+        </CheckBoxPreference>
+
+        <CheckBoxPreference
+                android:key="isBTbasedDetection"
+                android:summary="Use paired bluetooth to detect driving (most battery efficienet)"
+                android:title="AutoStart with bluetooth"
+                android:defaultValue="true">
+        </CheckBoxPreference>
+        -->
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="enableAutoReply"
+            android:summary="AutoReply to received text messages"
+            android:title="AutoReply on/off">
+        </CheckBoxPreference>
+
+        <EditTextPreference
+            android:defaultValue="Via ridemetric.com: I am driving right now. I'll contact you shortly."
+            android:key="respMsg"
+            android:summary="Tap to edit AutoReply Message"
+            android:title="AutoReply Message">
+        </EditTextPreference>
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="isShowReminderScreen"
+            android:summary="Display a reminder screen while driving."
+            android:title="Show reminder screen">
+        </CheckBoxPreference>
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="enablePlayText"
+            android:summary="Read aloud text messages received while driving"
+            android:title="Play received texts">
+        </CheckBoxPreference>
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="isForceReminder"
+            android:summary="Force reminder screen while driving to prevent phone usage."
+            android:title="Force reminder screen">
+        </CheckBoxPreference>
+
+        <!-- 
+    	<PreferenceScreen                
+            android:title="Show advanced settings"
+            android:key="advancedSettings" >
+            
+            <CheckBoxPreference 
+    			android:key="enablePlayText" 
+    			android:summary="Read aloud text messages received while driving" 
+    			android:title="Play received text"
+    			android:defaultValue="true">
+    		</CheckBoxPreference>  
+    		
+    		<CheckBoxPreference 
+    			android:key="isForceReminder"
+    			android:summary="Force reminder screen while driving to prevent phone usage." 
+    			android:title="Force reminder screen"
+    			android:defaultValue="false">
+    		</CheckBoxPreference>   
+    		
+        </PreferenceScreen> 
+         -->
+    </PreferenceCategory>
+</PreferenceScreen>
+ 
