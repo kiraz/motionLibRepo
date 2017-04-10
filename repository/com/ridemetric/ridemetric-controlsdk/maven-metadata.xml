@@ -3,7 +3,7 @@
   <groupId>com.ridemetric</groupId>
   <artifactId>ridemetric-controlsdk</artifactId>
   <versioning>
-    <release>4.1.36</release>
+    <release>4.1.38</release>
     <versions>
       <version>1.0.0</version>
       <version>1.0.1</version>
@@ -34,7 +34,8 @@
       <version>4.1.34</version>
       <version>4.1.35</version>
       <version>4.1.36</version>
+      <version>4.1.38</version>
     </versions>
-    <lastUpdated>20170410032603</lastUpdated>
+    <lastUpdated>20170410051914</lastUpdated>
   </versioning>
 </metadata>
